@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<config xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+        xsi:noNamespaceSchemaLocation="../../../../engine/Shopware/Components/Plugin/schema/config.xsd">
+    <elements>
+
+        <element type="combo" scope="shop">
+            <name>standardFonts</name>
+            <label>Load standard fonts</label>
+            <label lang="de">Standard Schriften laden</label>
+            <store>
+                <option>
+                    <value>opensans</value>
+                    <label>OpenSans</label>
+                </option>
+                <option>
+                    <value>shopware</value>
+                    <label>Shopware Icons</label>
+                </option>
+            </store>
+            <options>
+                <multiSelect>true</multiSelect>
+            </options>
+        </element>
+
+        <element type="textarea" scope="shop">
+            <name>customFonts</name>
+            <label>Customs fonts</label>
+            <label lang="de">Eigene Schriftarten</label>
+            <description>Please enter URL file per line. Smarty {link} tags are allowed.</description>
+            <description lang="de">Bitte eine URL pro Zeile angeben. Smarty {link} Tags werden aufgelöst.</description>
+        </element>
+
+    </elements>
+</config>

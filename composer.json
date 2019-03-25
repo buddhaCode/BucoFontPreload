@@ -1,0 +1,14 @@
+{
+  "name": "buddha-code/buco-font-preload",
+  "homepage": "https://github.com/buddhaCode/BucoFontPreload",
+  "description": "Shopware plugin to preload font assets",
+  "keywords": ["shopware", "plugin", "font", "preload"],
+  "type": "shopware-plugin",
+  "extra": {
+    "installer-name": "BucoFontPreload"
+  },
+  "license": "GPL-3.0",
+  "require": {
+    "php": ">=7.0"
+  }
+}

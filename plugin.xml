@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<plugin xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="../../../engine/Shopware/Components/Plugin/schema/plugin.xsd">
+    <label>Font assets preloading</label>
+    <label lang="de">Schrift-Dateien vorladen</label>
+    <version>1.0.0</version>
+    <copyright></copyright>
+    <license>copyright</license>
+    <link>https://github.com/buddhaCode/BucoFontPreload</link>
+    <author>buddhaCode</author>
+    <description>
+        <![CDATA[
+            <p>This plugin enables preloading for Shopware's standard fonts. You can select which of the Shopware fonts
+            will be loaded. Additionally, you can specify custom fonts as well. With fonts preloading the performance of
+            your page can be improved. The font assets are known to the browser in advance and doesn't need to be resolved
+            through the CSS file. As a result, the browser can load the font assets faster.</p>
+
+            <p>For further information refer to the <a target="_blank" href="https://developers.google.com/web/fundamentals/performance/optimizing-content-efficiency/webfont-optimization?hl=en#optimizing_loading_and_rendering">Google Web Font Optimization page</a>, please.</p>
+
+            <h3>Technical information</h3>
+
+            <p>This plugins appends the <code>frontend_index_header_favicons</code> template block. So please be sure, that this
+            block isn't replaced in your theme. Also, the template variables <code>$SHOPWARE_VERSION</code>,
+            <code>$SHOPWARE_VERSION_TEXT</code> and <code>$SHOPWARE_REVISION</code> will be set for all frontend
+            controllers.</p>
+
+            <h3>Compatibility</h3>
+
+            <p>This plugin is compatible with <a target="_blank" href="https://store.shopware.com/en/frosh31872894918f/performance-improvements.html">Performance Improvements</a>'s "Remove shopware revision from font path" option</p>
+        ]]>
+    </description>
+    <description lang="de">
+        <![CDATA[
+            <p>Dieses Plugin ermöglicht das Vorladen von Shopware's Standard Schriften. Dabei lässt sich auswählen welche
+            der Schriften vorgeladen werden sollen. Außerdem ist es möglich eigene Schriften anzugeben. Das Vorladen der
+            Schrift-Dateien verbessert die Anzeigegeschwindigkeit deines Shops. Die Schriften-Dateien sind dem Webbrowser
+            so früher bekannt und müssen nicht über die CSS Datei aufgelöst werden. Als Ergebnis kann der Webbrowser früher
+            anfangen die Dateien zu laden.</p>
+
+            <p>Weitere Informationen finden sich auf der Seite <a target="_blank" href="https://developers.google.com/web/fundamentals/performance/optimizing-content-efficiency/webfont-optimization?hl=en#optimizing_loading_and_rendering">Google Web Font Optimization (englisch, deutsche Version ist veraltet)</a></p>
+
+            <h3>Technische Information</h3>
+
+            <p>Dieses Plugin erweitert den Template Block <code>frontend_index_header_favicons</code>. Bitte stelle sicher,
+            dass dieser Block nicht von deinem Theme überschrieben wird. Außerdem werden die Template Variablen
+            <code>$SHOPWARE_VERSION</code>, <code>$SHOPWARE_VERSION_TEXT</code> und <code>$SHOPWARE_REVISION</code> bei
+            jedem Frontend Controller der View hinzugefügt.</p>
+
+            <h3>Kompatibilität</h3>
+
+            <p>Dieses Plugin ist kompatibel mit der Einstellung "Remove shopware revision from font path" aus dem Plugin <a target="_blank" href="https://store.shopware.com/frosh31872894918f/performance-optimierungen.html">Performance Optimierungen</a>.</p>
+        ]]>
+    </description>
+    <compatibility minVersion="5.2.0" />
+    <changelog version="1.0.0">
+        <changes>Initial release</changes>
+        <changes lang="de">Erstveröffentlichung</changes>
+    </changelog>
+</plugin>
