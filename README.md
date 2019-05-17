@@ -18,11 +18,12 @@ This plugins appends the `frontend_index_header_favicons` template block. So ple
 
 ### Git Version
 * Checkout plugin in `/custom/plugins/BucoFontPreload`
-* Install the plugin with the Plugin Manager
+* Install and active plugin with the Plugin Manager
 
 ### Install with composer
 * Change to your root installation of Shopware
-* Run command `composer require buddhaCode/BucoFontPreload` and install and active plugin with Plugin Manager 
+* Run command `composer require buddha-code/buco-font-preload`
+* Install and active plugin with `./bin/console sw:plugin:install --activate BucoFontPreload`
 
 ## Contributing
 Feel free to fork and send pull requests!
